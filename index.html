@@ -7,6 +7,70 @@
     <title>Document</title>
 </head>
 
-<body></body>
+<body>
+    <form id="leadForm">
+
+        <label for="companyName">Company Name</label>
+        <input type="text" id="companyName" name="companyName" />
+
+        <label for="contactPerson">Contact Person</label>
+        <input type="text" id="contactPerson" name="contactPerson" />
+
+        <label for="jobTitle">Job Title</label>
+        <input type="text" id="jobTitle" name="jobTitle" />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="sector">Sector</label>
+        <select id="sector" name="sector">
+            <option value="">Select a sector</option>
+            <option value="construction">Construction</option>
+            <option value="warehouseLogistics">Warehouse & Logistics</option>
+            <option value="tech">Technology</option>
+            <option value="cleaning">Cleaning</option>
+            <option value="socialCare">Social Care</option>
+            <option value="admin">Admin</option>
+        </select>
+
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" />
+
+        <label for="status">Status</label>
+        <select id="status" name="status">
+            <option value="">Select a status</option>
+            <option value="new">New</option>
+            <option value="contacted">Contacted</option>
+            <option value="interested">Interested</option>
+            <option value="followUp">Follow-up</option>
+            <option value="client">Client</option>
+            <option value="notInterested">Not Interested</option>
+        </select>
+
+        <label for="source">Source</label>
+        <select id="source" name="source">
+            <option value="">Select a source</option>
+            <option value="linkedIn">LinkedIn</option>
+            <option value="indeed">Indeed</option>
+            <option value="google">Google</option>
+            <option value="referral">Referral</option>
+            <option value="coldCalling">Cold Calling</option>
+            <option value="companyWebsite">Company Website</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes"></textarea>
+
+        <label for="followUpDate">Follow-up Date</label>
+        <input type="date" id="followUpDate" name="followUpDate" />
+
+        <button type="submit">Add Lead</button>
+
+    </form>
+</body>
 
 </html>

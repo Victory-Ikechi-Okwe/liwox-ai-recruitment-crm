@@ -1,1 +1,4 @@
-// Liwox AI Recruitment CRM
+function sayHello() {
+    console.log("Hello, I am victory ikechi Okwe")
+};
+sayHello(); //Call thefunction
